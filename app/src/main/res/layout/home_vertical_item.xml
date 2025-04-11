@@ -36,13 +36,15 @@
             android:id="@+id/rating"
             android:layout_width="48dp"
             android:layout_height="28dp"
+            android:layout_marginBottom="188dp"
             android:text="@string/_5dp"
-            android:textSize="18dp"
             android:textColor="@color/black"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBaseline_toTopOf="parent"
-            tools:layout_editor_absoluteX="227dp"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="219dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
